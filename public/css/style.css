@@ -1,0 +1,45 @@
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url('https://images.jpost.com/image/upload/q_auto/c_fill,g_faces:center,h_537,w_822/451652');
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-attachment: fixed; 
+    }
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#search {
+    margin: 20px;
+    text-align: center;
+}
+
+#map {
+    margin: 20px;
+    text-align: center;
+}
+
+#map-container {
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+}
+
+#results {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#result-list {
+    list-style: none;
+    padding: 0;
+}

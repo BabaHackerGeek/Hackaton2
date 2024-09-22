@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kosher Travel Companion</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Kosher Travel Companion</h1>
+        <p>On this page, you can find Synagogues and Kosher Restaurants located near you!</p>
+    </header>
+
+    <section id="search">
+        <h2>Search</h2>
+        <form id="search-form">
+            <input type="text" id="location" placeholder="Enter a City or an address..." required>
+            <select id="type">
+                <option value="synagogues">Synagogues</option>
+                <option value="restaurants">Kosher Restaurants</option>
+            </select>
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    <section id="map">
+        <h2>Map results</h2>
+        <div id="map-container"></div>
+    </section>
+
+    <section id="results">
+        <h2>Results</h2>
+        <ul id="result-list"></ul>
+    </section>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&callback=initMap" async defer></script>
+</body>
+</html>
